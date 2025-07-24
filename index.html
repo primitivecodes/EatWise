@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Nutrition Tracker</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1><i class="fas fa-utensils"></i> Food Nutrition Tracker</h1>
+            <p>Get nutritional information for any food</p>
+        </header>
+        <div class="goal-section">
+            <label for="goalSelect"><strong>Select your goal:</strong></label>
+            <select id="goalSelect">
+                <option value="balanced">Balanced Diet</option>
+                <option value="weight_loss">Weight Loss</option>
+                <option value="muscle_gain">Muscle Gain</option>
+            </select>
+        </div>
+        <div class="search-section">
+            <div class="search-box">
+                <input type="text" id="foodInput" placeholder="Enter food item (e.g., 'banana')">
+                <button id="searchBtn"><i class="fas fa-search"></i> Search</button>
+            </div>
+        </div>
+        <div id="loading" class="hidden">
+            <div class="spinner"></div>
+            <p>Fetching nutrition data...</p>
+        </div>
+        <div id="results" class="hidden">
+            <div class="nutrition-section">
+                <h2><i class="fas fa-info-circle"></i> Nutritional Information</h2>
+                <div class="food-header">
+                    <h3 id="foodName"></h3>
+                    <div class="calories-badge" id="caloriesBadge"></div>
+                </div>
+                <div id="recommendationBadge"></div>
+                <div class="macros-container">
+                    <div class="macro-card">
+                        <div class="macro-progress" id="proteinProgress"></div>
+                        <div class="macro-info">
+                            <span class="macro-value" id="proteinValue"></span>
+                            <span class="macro-label">Protein</span>
+                        </div>
+                    </div>
+                    <div class="macro-card">
+                        <div class="macro-progress" id="carbsProgress"></div>
+                        <div class="macro-info">
+                            <span class="macro-value" id="carbsValue"></span>
+                            <span class="macro-label">Carbs</span>
+                        </div>
+                    </div>
+                    <div class="macro-card">
+                        <div class="macro-progress" id="fatsProgress"></div>
+                        <div class="macro-info">
+                            <span class="macro-value" id="fatsValue"></span>
+                            <span class="macro-label">Fats</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="error" class="hidden error-message"></div>
+    </div>
+<script src="script.js"></script>
+</body>
+</html>
+
