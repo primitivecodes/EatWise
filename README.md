@@ -1,30 +1,30 @@
-# 🍽️ EatWise – Food Nutrition Tracker
+EatWise – Food Nutrition Tracker
 
-**EatWise** is a simple yet powerful web application that helps users make informed dietary decisions based on their personal health goals. Users can search for any food item and get nutritional information such as calories, proteins, carbs, and fats. The app recommends whether a food item aligns with a selected goal: **Balanced Diet**, **Weight Loss**, or **Muscle Gain**.
+EatWise is a simple yet powerful web application that helps users make informed dietary decisions based on their personal health goals. Users can search for any food item and get nutritional information such as calories, proteins, carbs, and fats. The app recommends whether a food item aligns with a selected goal: Balanced Diet, Weight Loss, or Muscle Gain.
 
-This project was built using **HTML**, **CSS**, and **JavaScript** and uses the **Nutritionix API** to fetch real-time nutrition data.
-
----
-
-## 📌 Features
-
-- 🌿 Select a goal (Balanced Diet, Weight Loss, or Muscle Gain)
-- 🍌 Search any food item and get instant nutrition breakdown
-- 🔄 Visual macro distribution using animated circular charts
-- ✅ Smart recommendations based on selected goals
-- ⚠️ Error handling for invalid inputs or API issues
-- 🔗 Deployed with load balancing for high availability
+This project was built using HTML, CSS, and JavaScript and uses the Nutritionix API to fetch real-time nutrition data.
 
 ---
 
-## 🚀 Live Demo
+Features
+
+- Select a goal (Balanced Diet, Weight Loss, or Muscle Gain)
+- Search any food item and get instant nutrition breakdown
+-  Visual macro distribution using animated circular charts
+- Smart recommendations based on selected goals
+-  Error handling for invalid inputs or API issues
+- Deployed with load balancing for high availability
+
+---
+
+Live Demo
 
 Access the deployed version via the load balancer:
-**http://<Your_Load_Balancer_IP_or_Domain>**
+http://<Your_Load_Balancer_IP_or_Domain>
 
 ---
 
-## 🛠️ Tech Stack
+Tech Stack
 
 | Technology     | Use Case                          |
 |----------------|-----------------------------------|
@@ -35,18 +35,17 @@ Access the deployed version via the load balancer:
 
 ---
 
-## 🔗 API Used
+API Used
 
-- **Nutritionix API**  
+- Nutritionix API
   [https://www.nutritionix.com/business/api](https://www.nutritionix.com/business/api)
 
-> **Headers used:**
+> Headers used:
 > - `x-app-id: de8a1f7a`
 > - `x-app-key: aeb20bf2dbaf199ee444d98e594f67a1`
 
 ---
-
-## 🧪 How to Run Locally
+How to Run Locally
 
 1. Clone the repository:
    ```bash
