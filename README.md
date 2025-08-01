@@ -19,8 +19,7 @@ Features
 
 Live Demo
 
-Access the deployed version via the load balancer:
-http://<Your_Load_Balancer_IP_or_Domain>
+youtube link :https://youtu.be/aaNYtOpvQ1w
 
 ---
 
@@ -30,8 +29,6 @@ Tech Stack
 |----------------|-----------------------------------|
 | HTML/CSS       | UI & layout styling               |
 | JavaScript     | API calls & DOM interaction       |
-| Nutritionix API| Real-time food nutrition data     |
-| Nginx          | Web server and load balancing     |
 
 ---
 
